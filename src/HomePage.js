@@ -64,7 +64,7 @@ const handleLogout = () => {
         <p><strong>Welcome to Unilife!</strong></p>
       </div>
       <div className="container assignments">
-        <h2>Assignments Due</h2>
+        <h2>Assignments Due soon</h2>
         <ul>
           {assignments.map(assignment => (
             <li key={assignment.id} onClick={() => removeAssignment(assignment.id)}>
