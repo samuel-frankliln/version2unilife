@@ -1,0 +1,76 @@
+/* LoginPage.css */
+.login-background {
+    background: url('bg.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    background: rgba(0, 0, 0, 0.75); /* Translucent background */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-form {
+    color: #ddd;
+  }
+  
+  .login-form .form-control {
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #4E4E4E;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: #ddd;
+  }
+  
+  .login-form .form-control:focus {
+    border-color: #007bff;
+  }
+  
+  .login-form .btn-custom {
+    background: #007bff;
+    border-radius: 25px;
+    border: 0;
+    letter-spacing: 0.1em;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Add more styles as needed for other elements */
+  
+  /* Additional styles for vertical alignment */
+  .forgot-link a {
+    color: #ddd;
+  }
+  
+  .forgot-link a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .form-check-label {
+    margin-bottom: 0;
+  }
+  
+  .form-check-input {
+    margin-top: 0;
+    vertical-align: middle;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 576px) {
+    .login-container {
+      padding: 25px;
+    }
+  }
+  
